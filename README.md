@@ -1,3 +1,3 @@
 # goit-markup-hw-group
 
-HTML and CSS homework 02
+HTML and CSS homework 03 - Flexbox

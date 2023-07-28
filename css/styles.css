@@ -1,3 +1,4 @@
+/*------------ VARIABLES ------------*/
 :root {
     --color-primary-brand: #4D5AE5;
     --color-pressed-state: #404BBF;
@@ -25,8 +26,61 @@
     --letter-spacing-main: .02em;
     --letter-spacing-small: .04em;
 }
+/*------------ /VARIABLES ------------*/
 
+/*------------ NORMOLIZING ------------*/
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    /* list-style-type: none; */
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 100vh;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*------------ /NORMOLIZING ------------*/
+
+/*------------ GENERAL ------------*/
 body {
     color: var(--color-text);
     background-color: var(--color-white-background);
@@ -107,7 +161,8 @@ body {
     text-align: center;
 }
 
-/* LOGO styles */
+
+/*------------ LOGO ------------*/
 .logo {
     color: var(--color-primary-brand);
     font-family: var(--font-logo);
@@ -119,7 +174,7 @@ body {
 }
 
 
-/* HEADER styles */
+/*------------ HEADER ------------*/
 .header {
     color: var(--color-dark);
 }
@@ -151,7 +206,7 @@ body {
 }
 
 
-/* FOOTER styles */
+/*------------ FOOTER ------------*/
 .footer {
     color: var(--color-light);
     background-color: var(--color-dark);
@@ -162,7 +217,7 @@ body {
 }
 
 
-/* BUTTONS style */
+/*------------ BUTTONS ------------*/
 .btn {
     font-family: var(--font-primary);
     cursor: pointer;
@@ -194,13 +249,15 @@ body {
     border: 1px solid var(--color-pressed-state);
 }
 
-/* HERO-SCREEN style */
+
+/*------------ HERO-SCREEN ------------*/
 .hero-screen {
     color: var(--color-white-background);
     background-color: var(--color-dark);
 }
 
-/* TEAM-SCREEN style */
+
+/*------------ TEAM-SCREEN ------------*/
 .team-screen {
     background-color: var(--color-light);
 }
