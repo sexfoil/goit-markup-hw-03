@@ -248,15 +248,32 @@ body {
 
 
 /*------------ FOOTER ------------*/
-.footer {
+.page-footer {
+    display: flex;
+    justify-content: center;
     color: var(--color-light-cloud);
     background-color: var(--color-dark-navy-blue);
 }
 
-.footer .logo-tail {
-    color: var(--color-light-cloud);
+.page-footer .container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    max-width: 1128px;
+    height: 312px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
 }
 
+.page-footer .footer-slogan {
+    width: 264px;
+}
+
+.page-footer .logo-tail {
+    color: var(--color-light-cloud);
+}
+/*------------ /FOOTER ------------*/
 
 /*------------ BUTTONS ------------*/
 .btn {
