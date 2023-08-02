@@ -381,11 +381,6 @@ body {
 }
 
 .team-card {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
     background-color: var(--color-white-background-white);
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -395,7 +390,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 32px 0;
-    max-width: 232px;
 }
 
 .team-card-textblock > h3 {
